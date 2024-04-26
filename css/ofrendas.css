@@ -1,0 +1,710 @@
+body{
+    margin: 0;
+    font-family: 'Noto Sans';
+}
+
+header{
+    padding: 10px 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/imagenes/fondo\ 2.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: none;
+    flex-direction: column;
+    
+
+    
+
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 100px;
+    opacity: 1;
+    transition: .5s ease;
+}
+
+
+nav ul {
+    
+    list-style: none;
+    margin: 0;
+    padding: 20px 1px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid rgba(255, 252, 252, 0.384);
+
+
+
+}
+
+nav ul li {
+    margin: 0;
+
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 20px;
+    display: block;
+    opacity: .5;
+    transition: .6s ease-in-out;
+    
+}
+nav ul li:last-child{
+    margin-left:auto ;
+}
+nav ul li:last-child{
+    margin: 0;
+    padding: 0;
+}
+
+
+nav ul li a:hover {
+    opacity: 1;
+
+}
+
+.logo img:hover{
+    opacity: .5;
+}
+
+.espaciador {
+    padding: 350px;
+}
+
+.titulocontainer {
+    display: flex;
+    justify-content: end;
+}
+
+.titulo {
+ display: flex;
+ flex-direction: column;
+}
+
+.titulo h2 {
+    color: #173350;
+    font-size: 88px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.titulo h1 {
+    color: #173350;
+    font-size: 158px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transform: translateY(-199px);
+    
+}
+
+.texto {
+    display: flex ;
+    text-align: center;
+    justify-content: center;
+    color: #173350;
+}
+
+.cuentas {
+    display: flex;
+    justify-content: space-around;
+    gap:  20x;
+}
+
+.banco1{
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+}
+
+.logodebanco1 {
+    display: block;
+}
+.logodebanco1 img {
+    max-width: 250px;
+}
+
+
+.banco2{
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+}
+
+footer {
+    background: #173350;
+    padding: 10px 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.footer-container {
+
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+
+.logo-footer {
+    display: block;
+    transition: .5s ease-in;
+    align-items: center;
+    margin-bottom: 0px;
+
+}
+
+.logo-footer img {
+    max-width: 100px;
+    margin-bottom: 20px;
+} 
+
+.logo-footer:hover {
+    opacity: .4;
+    transform: translateY(-5px);
+}
+
+.lema-footer {
+
+    font-size: 15px;
+    color: #fff;
+    opacity: .5;
+    margin-top: -35px;
+    padding-bottom: -35px;
+    
+}
+
+.derechos {
+
+    font-size: 15px;
+    color: #fff;
+    margin-top: 45px;
+    margin-bottom: 35px;
+    padding-bottom: -35px;
+    text-align: center;
+
+}
+
+.logo-jarts-footer {
+
+    display: block;
+    transition: .5s ease-in;
+    align-items: center;
+}
+
+.logo-jarts-footer img {
+
+    max-width: 300px;
+    opacity: 1;
+    transition: .4s ease-in;
+
+}
+
+.divisor {
+      
+
+     padding-left: 200px;
+     padding-right: 200px;
+     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.logo-jarts-footer img:hover {
+
+    opacity: .5;
+    max-width: 290px;
+}
+
+.social-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.social-container ul {
+    list-style: none;
+}
+
+.social-container ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.titulo {
+    color: #fff;
+}
+
+.social-container ul li img {
+    max-width: 20px;
+    filter: invert(1);
+    opacity: .7;
+    transform: translateY(3px);
+}
+.social-container ul li img:hover {
+    opacity: 1;
+}
+
+
+
+@media (max-width : 990px ) {
+
+    header{
+        padding: 10px 1px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(/imagenes/fondo\ 2.jpg);
+        background-size: 100%;
+        background-position: bottom;
+        background-repeat: none;
+        flex-direction: column;
+        
+    
+        
+    
+    
+    }
+    
+    .logo {
+        display: flex;
+        align-items: center;
+    }
+    
+    .logo img {
+        max-width: 50px;
+        opacity: 1;
+        transition: .5s ease;
+    }
+    
+    
+    nav ul {
+        
+        list-style: none;
+        margin: 0;
+        padding: 20px 1px;
+        display: flex;
+        align-items: center;
+        border-bottom: 0px solid rgba(255, 252, 252, 0.384);
+    
+    
+    
+    }
+    
+    nav ul li {
+        margin: 0;
+    
+    
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color: #fff;
+        padding: 25px 8px;
+        display: block;
+        opacity: .5;
+        transition: .6s ease-in-out;
+        font-size: 15px;
+        gap: 0 10px;
+        
+    }
+    nav ul li:last-child{
+        margin-left:auto ;
+    }
+    nav ul li:last-child{
+        margin: 0;
+        padding: 0;
+    }
+    
+    
+    nav ul li a:hover {
+        opacity: 1;
+    
+    }
+    
+    .logo img:hover{
+        opacity: .5;
+    }
+    
+    .espaciador {
+        padding: 150px;
+    }
+
+    .titulo h2 {
+        color: #173350;
+        font-size: 28px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    }
+    
+    .titulo h1 {
+        color: #173350;
+        font-size: 40px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transform: translateY(-49px);
+        
+    }
+
+    .texto {
+        display: flex ;
+        text-align: center;
+        justify-content: center;
+        color: #173350;
+    }
+
+    .cuentas {
+        display: flex;
+        justify-content: space-around;
+        gap:  20x;
+    }
+    
+    .banco1{
+        display: flex ;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center ;
+    }
+    
+    .logodebanco1 {
+        display: block;
+    }
+    .logodebanco1 img {
+        max-width: 150px;
+    }
+    
+    
+    .banco2{
+        display: flex ;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center ;
+    }
+
+
+    .lema-footer {
+
+        font-size: 15px;
+        color: #fff;
+        opacity: .5;
+        margin-top: -35px;
+        padding-bottom: -35px;
+        margin-left: 10%;
+        margin-right: 10%;
+        
+    }
+    .logo-jarts-footer img {
+
+        max-width: 200px;
+        opacity: 1;
+        transition: .4s ease-in;
+    
+    }
+    .logo-jarts-footer img:hover {
+
+        opacity: .5;
+        max-width: 190px;
+    }
+
+}
+
+
+@media (max-width : 790px ) {
+
+    header{
+        padding: 10px 1px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(/imagenes/fondo\ 2.jpg);
+        background-size: 100%;
+        background-position: bottom;
+        background-repeat: none;
+        flex-direction: column;
+        
+    
+        
+    
+    
+    }
+    
+    .logo {
+        display: flex;
+        align-items: center;
+    }
+    
+    .logo img {
+        max-width: 50px;
+        opacity: 1;
+        transition: .5s ease;
+    }
+    
+    
+    nav ul {
+        
+        list-style: none;
+        margin: 0;
+        padding: 20px 1px;
+        display: flex;
+        align-items: center;
+        border-bottom: 0px solid rgba(255, 252, 252, 0.384);
+    
+    
+    
+    }
+    
+    nav ul li {
+        margin: 0;
+    
+    
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color: #fff;
+        padding: 25px 8px;
+        display: block;
+        opacity: .5;
+        transition: .6s ease-in-out;
+        font-size: 15px;
+        gap: 0 10px;
+        
+    }
+    nav ul li:last-child{
+        margin-left:auto ;
+    }
+    nav ul li:last-child{
+        margin: 0;
+        padding: 0;
+    }
+    
+    
+    nav ul li a:hover {
+        opacity: 1;
+    
+    }
+    
+    .logo img:hover{
+        opacity: .5;
+    }
+    
+    .espaciador {
+        padding: 150px;
+    }
+
+    .titulo h2 {
+        color: #173350;
+        font-size: 28px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    }
+    
+    .titulo h1 {
+        color: #173350;
+        font-size: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transform: translateY(-49px);
+        
+    }
+
+
+    .lema-footer {
+
+        font-size: 15px;
+        color: #fff;
+        opacity: .5;
+        margin-top: -35px;
+        padding-bottom: -35px;
+        margin-left: 10%;
+        margin-right: 10%;
+        
+    }
+    .logo-jarts-footer img {
+
+        max-width: 200px;
+        opacity: 1;
+        transition: .4s ease-in;
+    
+    }
+    .logo-jarts-footer img:hover {
+
+        opacity: .5;
+        max-width: 190px;
+    }
+
+}
+
+@media (max-width : 590px ) {
+
+    header{
+        padding: 10px 1px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(/imagenes/fondo\ 2.jpg);
+        background-size: 100%;
+        background-position: bottom;
+        background-repeat: none;
+        flex-direction: column;
+        
+    
+        
+    
+    
+    }
+    
+    .logo {
+        display: flex;
+        align-items: center;
+    }
+    
+    .logo img {
+        max-width: 50px;
+        opacity: 1;
+        transition: .5s ease;
+    }
+    
+    
+    nav ul {
+        
+        list-style: none;
+        margin: 0;
+        padding: 20px 1px;
+        display: flex;
+        align-items: center;
+        border-bottom: 0px solid rgba(255, 252, 252, 0.384);
+    
+    
+    
+    }
+    
+    nav ul li {
+        margin: 0;
+    
+    
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color: #242424;
+        padding: 15px 2px;
+        display: block;
+        opacity: .5;
+        transition: .6s ease-in-out;
+        font-size: 10px;
+        
+    }
+    nav ul li:last-child{
+        margin-left:auto ;
+    }
+    nav ul li:last-child{
+        margin: 0;
+        padding: 0;
+    }
+    
+    
+    nav ul li a:hover {
+        opacity: 1;
+    
+    }
+    
+    .logo img:hover{
+        opacity: .5;
+    }
+    
+    .espaciador {
+        padding: 50px;
+    }
+
+    .titulo h2 {
+        color: #173350;
+        font-size: 28px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    }
+    
+    .titulo h1 {
+        color: #173350;
+        font-size: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transform: translateY(-49px);
+        
+    }
+
+    .cuentas {
+        display: flex;
+        justify-content: space-around;
+        gap:  20x;
+    }
+    
+    .banco1{
+        display: flex ;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center ;
+    }
+    
+    .logodebanco1 {
+        display: block;
+    }
+    .logodebanco1 img {
+        max-width: 100px;
+    }
+
+    .banco1 h1 {
+        font-size: 15px;
+    }
+
+    .banco2 h1 {
+        font-size: 15px;
+    }
+    
+    
+    .banco2{
+        display: flex ;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center ;
+    }
+
+
+    .lema-footer {
+
+        font-size: 15px;
+        color: #fff;
+        opacity: .5;
+        margin-top: -35px;
+        padding-bottom: -35px;
+        margin-left: 10%;
+        margin-right: 10%;
+        
+    }
+    .logo-jarts-footer img {
+
+        max-width: 200px;
+        opacity: 1;
+        transition: .4s ease-in;
+    
+    }
+    .logo-jarts-footer img:hover {
+
+        opacity: .5;
+        max-width: 190px;
+    }
+
+}

@@ -1,0 +1,837 @@
+body{
+    margin: 0;
+    font-family: 'Noto Sans';
+    background: #e4f0ff;
+}
+
+header{
+    padding: 10px 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/imagenes/fondo\ 2.jpg);
+    background-size: 100%;
+    background-position: bottom;
+    background-repeat: none;
+    flex-direction: column;
+    
+
+    
+
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 100px;
+    opacity: 1;
+    transition: .5s ease;
+}
+
+
+nav ul {
+    
+    list-style: none;
+    margin: 0;
+    padding: 20px 1px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid rgba(255, 252, 252, 0.384);
+
+
+
+}
+
+nav ul li {
+    margin: 0;
+
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 20px;
+    display: block;
+    opacity: .5;
+    transition: .6s ease-in-out;
+    
+}
+nav ul li:last-child{
+    margin-left:auto ;
+}
+nav ul li:last-child{
+    margin: 0;
+    padding: 0;
+}
+
+
+nav ul li a:hover {
+    opacity: 1;
+
+}
+
+.logo img:hover{
+    opacity: .5;
+}
+
+.espaciador {
+    padding: 350px;
+}
+
+.grid-container {
+    display: grid;
+    gap: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    grid-template-areas: 
+    
+    
+            "a b"
+            "a b"
+            "a b"
+            "a d"
+            "c d"
+            "c d"
+            "c d"
+    
+    
+    ;
+}
+
+.grid-item {
+      display: grid;
+      transform: translateY(-25px);
+      
+}
+.grid-item :nth-child(1){
+    grid-area: a;
+    
+}
+.grid-item :nth-child(2){
+    grid-area: b;
+}
+
+.grid-item :nth-child(3){
+    grid-area: c;
+}
+
+.grid-item :nth-child(4){
+    grid-area: d;
+
+}
+
+.grid-item img {
+    max-width: 200px;
+    border-radius: 15px;
+    transform: translateY(-19px);
+    transition: .3s ease-in-out;
+    filter: contrast(.9);
+
+
+}
+
+.grid-item img:hover {
+    transform: translateY(-25px);
+    filter: contrast(1.3);
+
+}
+
+.titulo-mision-y-vision  {
+    display: flex;
+    justify-content: end;
+    gap: 0 20px;
+}
+
+.titulo-vision-mision {
+    display: flex;
+    flex-direction: column;
+    color: #0077ff;
+}
+
+.titulo-vision-mision h2 {
+    font-size: 45px;
+    font: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transform: translateY(99px);
+}
+
+.titulo-vision-mision h1{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 85px;
+   font: bold;
+}
+.vision-y-mision{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    margin: 0 25%;
+    color: #0077ff;
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    margin: 0 15%;
+    color: #0077ff;
+    grid-template-areas: 
+    
+    "a b"
+    "c d"
+
+;
+}
+
+.container p{
+    display: grid;
+}
+
+.container p:nth-child(1) {
+    grid-area: a;
+}
+.container p:nth-child(2) {
+    grid-area: b;
+}
+.container p:nth-child(3) {
+    grid-area: c;
+}
+.container p:nth-child(4) {
+    grid-area: d;
+}
+
+
+.pastor-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.pastor-marco {
+    display: flex;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.pastor-marco img {
+    max-width: 300px;
+    border-radius: 15px;
+
+}
+
+.pastor-marco h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color: #0077ff;
+}
+
+
+
+
+
+
+
+footer {
+    background: #173350;
+    padding: 10px 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.footer-container {
+
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+
+.logo-footer {
+    display: block;
+    transition: .5s ease-in;
+    align-items: center;
+    margin-bottom: 0px;
+
+}
+
+.logo-footer img {
+    max-width: 100px;
+    margin-bottom: 20px;
+} 
+
+.logo-footer:hover {
+    opacity: .4;
+    transform: translateY(-5px);
+}
+
+.lema-footer {
+
+    font-size: 15px;
+    color: #fff;
+    opacity: .5;
+    margin-top: -35px;
+    padding-bottom: -35px;
+    
+}
+
+.derechos {
+
+    font-size: 15px;
+    color: #fff;
+    margin-top: 45px;
+    margin-bottom: 35px;
+    padding-bottom: -35px;
+    text-align: center;
+
+}
+
+.logo-jarts-footer {
+
+    display: block;
+    transition: .5s ease-in;
+    align-items: center;
+}
+
+.logo-jarts-footer img {
+
+    max-width: 300px;
+    opacity: 1;
+    transition: .4s ease-in;
+
+}
+
+.divisor {
+      
+
+     padding-left: 200px;
+     padding-right: 200px;
+     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.logo-jarts-footer img:hover {
+
+    opacity: .5;
+    max-width: 290px;
+}
+
+.social-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.social-container ul {
+    list-style: none;
+}
+
+.social-container ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.titulo {
+    color: #fff;
+}
+
+.social-container ul li img {
+    max-width: 20px;
+    filter: invert(1);
+    opacity: .7;
+    transform: translateY(3px);
+}
+.social-container ul li img:hover {
+    opacity: 1;
+}
+
+@media (max-width : 790px ) {
+
+    header{
+        padding: 10px 1px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(/imagenes/fondo\ 2.jpg);
+        background-size: 100%;
+        background-position: bottom;
+        background-repeat: none;
+        flex-direction: column;
+        
+    
+        
+    
+    
+    }
+    
+    .logo {
+        display: flex;
+        align-items: center;
+    }
+    
+    .logo img {
+        max-width: 50px;
+        opacity: 1;
+        transition: .5s ease;
+    }
+    
+    
+    nav ul {
+        
+        list-style: none;
+        margin: 0;
+        padding: 20px 1px;
+        display: flex;
+        align-items: center;
+        border-bottom: 0px solid rgba(255, 252, 252, 0.384);
+    
+    
+    
+    }
+    
+    nav ul li {
+        margin: 0;
+    
+    
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color: #fff;
+        padding: 25px 8px;
+        display: block;
+        opacity: .5;
+        transition: .6s ease-in-out;
+        font-size: 15px;
+        gap: 0 10px;
+        
+    }
+    nav ul li:last-child{
+        margin-left:auto ;
+    }
+    nav ul li:last-child{
+        margin: 0;
+        padding: 0;
+    }
+    
+    
+    nav ul li a:hover {
+        opacity: 1;
+    
+    }
+    
+    .logo img:hover{
+        opacity: .5;
+    }
+    
+    .espaciador {
+        padding: 150px;
+    }
+
+    .grid-container {
+        display: grid;
+        gap: 10px 20px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        grid-template-areas: 
+        
+        
+                "a b"
+                "a b"
+                "a b"
+                "a d"
+                "c d"
+                "c d"
+                "c d"
+        
+        
+        ;
+    }
+    
+    .grid-item {
+          display: grid;
+          transform: translateY(-25px);
+          
+    }
+    .grid-item :nth-child(1){
+        grid-area: a;
+        
+    }
+    .grid-item :nth-child(2){
+        grid-area: b;
+    }
+    
+    .grid-item :nth-child(3){
+        grid-area: c;
+    }
+    
+    .grid-item :nth-child(4){
+        grid-area: d;
+    
+    }
+    
+    .grid-item img {
+        max-width: 90px;
+        border-radius: 10px;
+        transform: translateY(-19px);
+        transition: .3s ease-in-out;
+        filter: contrast(.9);
+    
+    
+    }
+    
+    .grid-item img:hover {
+        transform: translateY(-25px);
+        filter: contrast(1.3);
+    
+    }
+
+    .titulo-mision-y-vision  {
+        display: flex;
+        justify-content: center;
+        gap: 0 20px;
+    }
+    
+    .titulo-vision-mision {
+        display: flex;
+        flex-direction: column;
+        color: #0077ff;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .titulo-vision-mision h2 {
+        font-size: 25px;
+        font: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transform: translateY(49px);
+    }
+    
+    .titulo-vision-mision h1{
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       font-size: 45px;
+       font: bold;
+    }
+    .vision-y-mision{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        gap: 20px;
+        margin: 0 15%;
+        color: #0077ff;
+    }
+    
+    .container {
+        display: grid;
+        justify-content: center;
+        text-align: center;
+        gap: 20px;
+        margin: 0 15%;
+        color: #0077ff;
+        grid-template-areas: 
+        
+        "a"
+        "b"
+        "c"
+        "d"
+    
+    ;
+    }
+    
+    .container p{
+        display: grid;
+    }
+    
+    .container p:nth-child(1) {
+        grid-area: a;
+    }
+    .container p:nth-child(2) {
+        grid-area: b;
+    }
+    .container p:nth-child(3) {
+        grid-area: c;
+    }
+    .container p:nth-child(4) {
+        grid-area: d;
+    }
+
+
+    .lema-footer {
+
+        font-size: 15px;
+        color: #fff;
+        opacity: .5;
+        margin-top: -35px;
+        padding-bottom: -35px;
+        margin-left: 10%;
+        margin-right: 10%;
+        
+    }
+    .logo-jarts-footer img {
+
+        max-width: 200px;
+        opacity: 1;
+        transition: .4s ease-in;
+    
+    }
+    .logo-jarts-footer img:hover {
+
+        opacity: .5;
+        max-width: 190px;
+    }
+
+}
+
+@media (max-width : 590px ) {
+
+    header{
+        padding: 10px 1px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(/imagenes/fondo\ 2.jpg);
+        background-size: 100%;
+        background-position: bottom;
+        background-repeat: none;
+        flex-direction: column;
+        
+    
+        
+    
+    
+    }
+    
+    .logo {
+        display: flex;
+        align-items: center;
+    }
+    
+    .logo img {
+        max-width: 50px;
+        opacity: 1;
+        transition: .5s ease;
+    }
+    
+    
+    nav ul {
+        
+        list-style: none;
+        margin: 0;
+        padding: 20px 1px;
+        display: flex;
+        align-items: center;
+        border-bottom: 0px solid rgba(255, 252, 252, 0.384);
+    
+    
+    
+    }
+    
+    nav ul li {
+        margin: 0;
+    
+    
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color: #242424;
+        padding: 15px 2px;
+        display: block;
+        opacity: .5;
+        transition: .6s ease-in-out;
+        font-size: 10px;
+        
+    }
+    nav ul li:last-child{
+        margin-left:auto ;
+    }
+    nav ul li:last-child{
+        margin: 0;
+        padding: 0;
+    }
+    
+    
+    nav ul li a:hover {
+        opacity: 1;
+    
+    }
+    
+    .logo img:hover{
+        opacity: .5;
+    }
+    
+    .espaciador {
+        padding: 50px;
+    }
+
+    .grid-container {
+        display: grid;
+        gap: 10px 20px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        grid-template-areas: 
+        
+        
+                "a b"
+                "a b"
+                "a b"
+                "a d"
+                "c d"
+                "c d"
+                "c d"
+        
+        
+        ;
+    }
+    
+    .grid-item {
+          display: grid;
+          transform: translateY(-25px);
+          
+    }
+    .grid-item :nth-child(1){
+        grid-area: a;
+        
+    }
+    .grid-item :nth-child(2){
+        grid-area: b;
+    }
+    
+    .grid-item :nth-child(3){
+        grid-area: c;
+    }
+    
+    .grid-item :nth-child(4){
+        grid-area: d;
+    
+    }
+    
+    .grid-item img {
+        max-width: 90px;
+        border-radius: 10px;
+        transform: translateY(-19px);
+        transition: .3s ease-in-out;
+        filter: contrast(.9);
+    
+    
+    }
+    
+    .grid-item img:hover {
+        transform: translateY(-25px);
+        filter: contrast(1.3);
+    
+    }
+
+    .titulo-mision-y-vision  {
+        display: flex;
+        justify-content: center;
+        gap: 0 20px;
+    }
+    
+    .titulo-vision-mision {
+        display: flex;
+        flex-direction: column;
+        color: #0077ff;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .titulo-vision-mision h2 {
+        font-size: 25px;
+        font: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transform: translateY(49px);
+    }
+    
+    .titulo-vision-mision h1{
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       font-size: 45px;
+       font: bold;
+    }
+    .vision-y-mision{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        gap: 20px;
+        margin: 0 15%;
+        color: #0077ff;
+    }
+    
+    .container {
+        display: grid;
+        justify-content: center;
+        text-align: center;
+        gap: 20px;
+        margin: 0 15%;
+        color: #0077ff;
+        grid-template-areas: 
+        
+        "a"
+        "b"
+        "c"
+        "d"
+    
+    ;
+    }
+    
+    .container p{
+        display: grid;
+    }
+    
+    .container p:nth-child(1) {
+        grid-area: a;
+    }
+    .container p:nth-child(2) {
+        grid-area: b;
+    }
+    .container p:nth-child(3) {
+        grid-area: c;
+    }
+    .container p:nth-child(4) {
+        grid-area: d;
+    }
+
+
+    .lema-footer {
+
+        font-size: 15px;
+        color: #fff;
+        opacity: .5;
+        margin-top: -35px;
+        padding-bottom: -35px;
+        margin-left: 10%;
+        margin-right: 10%;
+        
+    }
+    .logo-jarts-footer img {
+
+        max-width: 200px;
+        opacity: 1;
+        transition: .4s ease-in;
+    
+    }
+    .logo-jarts-footer img:hover {
+
+        opacity: .5;
+        max-width: 190px;
+    }
+
+}

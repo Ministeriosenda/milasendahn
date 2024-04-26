@@ -1,0 +1,47 @@
+body {
+    background-image: url(/imagenes/fondo\ 1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Noto Sans';
+
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+
+}
+
+a img {
+    max-width: 50px;
+    filter: invert(1);
+    opacity: .5;
+    transition: .3s ease;
+}
+
+
+.container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+iframe {
+    border-radius: 15px;
+    padding: 182px;
+}
+
+a img:hover {
+    opacity: 1;
+}
+
+
+@media(max-width:390px) {
+    iframe {
+        max-width: 250px;
+        border-radius: 15px;
+    }
+}
